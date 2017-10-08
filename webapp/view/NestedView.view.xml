@@ -1,0 +1,4 @@
+<mvc:View controllerName="FragmentsFragments.controller.NestedView" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<Text text="this is nested view"/>
+</mvc:View>

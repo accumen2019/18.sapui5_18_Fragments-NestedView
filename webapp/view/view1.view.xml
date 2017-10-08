@@ -1,10 +1,10 @@
 <mvc:View controllerName="FragmentsFragments.controller.view1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns="sap.m">
+	displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core">
 	<App>
 		<pages>
 			<Page title="View 1">
 				<content>
-					<Button text="Go to View2" press="onClick"/>
+					<core:Fragment fragmentName="FragmentsFragments.view.NewFragment" type="XML"/>
 				</content>
 			</Page>
 		</pages>

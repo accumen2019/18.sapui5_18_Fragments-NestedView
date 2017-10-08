@@ -1,10 +1,12 @@
 <mvc:View controllerName="FragmentsFragments.controller.view2" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true" xmlns="sap.m">
+	displayBlock="true" xmlns="sap.m" xmlns:core="sap.ui.core">
 	<App>
 		<pages>
 			<Page title="View 2" showNavButton="true" navButtonPress="onNavBack">
 				<content>
 					<Button text="Go to Split App" press="onClick"/>
+					<core:Fragment fragmentName="FragmentsFragments.view.NewFragment" type="XML"/>
+					<mvc:XMLView viewName="FragmentsFragments.view.NestedView"/> 
 				</content>
 			</Page>
 		</pages>
